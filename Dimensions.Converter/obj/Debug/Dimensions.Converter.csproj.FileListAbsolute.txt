@@ -1,0 +1,6 @@
+c:\users\sesa167253\documents\visual studio 2015\Projects\Dimensions.Converter\Dimensions.Converter\obj\Debug\Dimensions.Converter.Properties.PhysicsResources.resources
+c:\users\sesa167253\documents\visual studio 2015\Projects\Dimensions.Converter\Dimensions.Converter\obj\Debug\Dimensions.Converter.csproj.GenerateResource.Cache
+c:\users\sesa167253\documents\visual studio 2015\Projects\Dimensions.Converter\Dimensions.Converter\bin\Debug\Dimensions.Converter.dll
+c:\users\sesa167253\documents\visual studio 2015\Projects\Dimensions.Converter\Dimensions.Converter\bin\Debug\Dimensions.Converter.pdb
+c:\users\sesa167253\documents\visual studio 2015\Projects\Dimensions.Converter\Dimensions.Converter\obj\Debug\Dimensions.Converter.dll
+c:\users\sesa167253\documents\visual studio 2015\Projects\Dimensions.Converter\Dimensions.Converter\obj\Debug\Dimensions.Converter.pdb

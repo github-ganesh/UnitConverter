@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{17DA2BB3-39C4-4804-A4F1-F2FC0BBABFA6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dimensions.Converter</RootNamespace>
+    <AssemblyName>Dimensions.Converter</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DerivedUnits\AccelerationUnit.cs" />
+    <Compile Include="DerivedUnits\AngularAccelerationUnit.cs" />
+    <Compile Include="DerivedUnits\AngularFeedConstantUnit.cs" />
+    <Compile Include="DerivedUnits\AngularJerkUnit.cs" />
+    <Compile Include="DerivedUnits\AngularSpeedUnit.cs" />
+    <Compile Include="DerivedUnits\AreaUnit.cs" />
+    <Compile Include="DerivedUnits\CapacitanceUnit.cs" />
+    <Compile Include="DerivedUnits\DensityUnit.cs" />
+    <Compile Include="DerivedUnits\DerivedUnit.cs" />
+    <Compile Include="DerivedUnits\DistanceFeedConstantUnit.cs" />
+    <Compile Include="DerivedUnits\ElectricChargeUnit.cs" />
+    <Compile Include="DerivedUnits\FeedConstantUnit.cs" />
+    <Compile Include="DerivedUnits\GenericAccelerationUnit.cs" />
+    <Compile Include="DerivedUnits\GenericFeedConstantUnit.cs" />
+    <Compile Include="DerivedUnits\GenericJerkUnit.cs" />
+    <Compile Include="DerivedUnits\GenericSpeedUnit.cs" />
+    <Compile Include="DerivedUnits\InductanceUnit.cs" />
+    <Compile Include="DerivedUnits\InertiaUnit.cs" />
+    <Compile Include="DerivedUnits\JerkUnit.cs" />
+    <Compile Include="DerivedUnits\PowerUnit.cs" />
+    <Compile Include="DerivedUnits\RatioUnit.cs" />
+    <Compile Include="DerivedUnits\RatioUnitBase.cs" />
+    <Compile Include="DerivedUnits\ResistanceUnit.cs" />
+    <Compile Include="DerivedUnits\RotationalSpeedUnit.cs" />
+    <Compile Include="DerivedUnits\SpeedUnit.cs" />
+    <Compile Include="DerivedUnits\TorqueUnit.cs" />
+    <Compile Include="DerivedUnits\ViscousForceUnit.cs" />
+    <Compile Include="DerivedUnits\ViscousTorqueUnit.cs" />
+    <Compile Include="DerivedUnits\VolumeUnit.cs" />
+    <Compile Include="DerivedUnits\WorkUnit.cs" />
+    <Compile Include="Framework\Acceleration.cs" />
+    <Compile Include="Framework\AccelerationUnit.cs" />
+    <Compile Include="Framework\CoherentUnitBase.cs" />
+    <Compile Include="Framework\CurrentUnit.cs" />
+    <Compile Include="Framework\DividedByUnit.cs" />
+    <Compile Include="Framework\ForceUnit.cs" />
+    <Compile Include="Framework\IUnitConvertable.cs" />
+    <Compile Include="Framework\Jerk.cs" />
+    <Compile Include="Framework\JerkUnit.cs" />
+    <Compile Include="Framework\LengthUnit.cs" />
+    <Compile Include="Framework\MassUnit.cs" />
+    <Compile Include="Framework\Multiple.cs" />
+    <Compile Include="Framework\MultiplePower.cs" />
+    <Compile Include="Framework\MultipliedByUnit.cs" />
+    <Compile Include="Framework\PhysicalQuantityBase.cs" />
+    <Compile Include="Framework\PlaneAngleUnit.cs" />
+    <Compile Include="Framework\Quantity.cs" />
+    <Compile Include="Framework\SolidAngleUnit.cs" />
+    <Compile Include="Framework\Speed.cs" />
+    <Compile Include="Framework\SpeedUnit.cs" />
+    <Compile Include="Framework\TemperatureUnit.cs" />
+    <Compile Include="Framework\TimeUnit.cs" />
+    <Compile Include="Framework\Unit.cs" />
+    <Compile Include="Framework\UnitBase.cs" />
+    <Compile Include="Framework\UnitChangedEventArgs.cs" />
+    <Compile Include="Framework\UnitComposite.cs" />
+    <Compile Include="Framework\UnitCompositeCollection.cs" />
+    <Compile Include="Framework\UnitExtension.cs" />
+    <Compile Include="Framework\UnitFormatProvider.cs" />
+    <Compile Include="Framework\UnitSystem.cs" />
+    <Compile Include="Framework\VoltageUnit.cs" />
+    <Compile Include="NamedUnits\Ampere.cs" />
+    <Compile Include="NamedUnits\AngleDegree.cs" />
+    <Compile Include="NamedUnits\Celsius.cs" />
+    <Compile Include="NamedUnits\Coulomb.cs" />
+    <Compile Include="NamedUnits\Day.cs" />
+    <Compile Include="NamedUnits\Fahrenheit.cs" />
+    <Compile Include="NamedUnits\Farad.cs" />
+    <Compile Include="NamedUnits\Foot.cs" />
+    <Compile Include="NamedUnits\GenericUnit.cs" />
+    <Compile Include="NamedUnits\Gram.cs" />
+    <Compile Include="NamedUnits\Henry.cs" />
+    <Compile Include="NamedUnits\Hour.cs" />
+    <Compile Include="NamedUnits\Inch.cs" />
+    <Compile Include="NamedUnits\Kelvin.cs" />
+    <Compile Include="NamedUnits\Litre.cs" />
+    <Compile Include="NamedUnits\Meter.cs" />
+    <Compile Include="NamedUnits\Mile.cs" />
+    <Compile Include="NamedUnits\Minute.cs" />
+    <Compile Include="NamedUnits\Newton.cs" />
+    <Compile Include="NamedUnits\Ohm.cs" />
+    <Compile Include="NamedUnits\Percent.cs" />
+    <Compile Include="NamedUnits\PoundForce.cs" />
+    <Compile Include="NamedUnits\Rad.cs" />
+    <Compile Include="NamedUnits\Rotation.cs" />
+    <Compile Include="NamedUnits\Second.cs" />
+    <Compile Include="NamedUnits\Steradiant.cs" />
+    <Compile Include="NamedUnits\Ton.cs" />
+    <Compile Include="NamedUnits\Volt.cs" />
+    <Compile Include="NamedUnits\Watt.cs" />
+    <Compile Include="NamedUnits\Yard.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\PhysicsResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PhysicsResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Quantities\Acceleration.cs" />
+    <Compile Include="Quantities\AngularAcceleration.cs" />
+    <Compile Include="Quantities\AngularFeedConstant.cs" />
+    <Compile Include="Quantities\AngularJerk.cs" />
+    <Compile Include="Quantities\AngularSpeed.cs" />
+    <Compile Include="Quantities\Area.cs" />
+    <Compile Include="Quantities\Capacitance.cs" />
+    <Compile Include="Quantities\Current.cs" />
+    <Compile Include="Quantities\Density.cs" />
+    <Compile Include="Quantities\DistanceFeedConstant.cs" />
+    <Compile Include="Quantities\ElectricCharge.cs" />
+    <Compile Include="Quantities\FeedConstant.cs" />
+    <Compile Include="Quantities\Force.cs" />
+    <Compile Include="Quantities\Generic.cs" />
+    <Compile Include="Quantities\GenericAcceleration.cs" />
+    <Compile Include="Quantities\GenericFeedConstant.cs" />
+    <Compile Include="Quantities\GenericJerk.cs" />
+    <Compile Include="Quantities\GenericSpeed.cs" />
+    <Compile Include="Quantities\Inductance.cs" />
+    <Compile Include="Quantities\Inertia.cs" />
+    <Compile Include="Quantities\Jerk.cs" />
+    <Compile Include="Quantities\Length.cs" />
+    <Compile Include="Quantities\Mass.cs" />
+    <Compile Include="Quantities\PlaneAngle.cs" />
+    <Compile Include="Quantities\Power.cs" />
+    <Compile Include="Quantities\Quotient.cs" />
+    <Compile Include="Quantities\Resistance.cs" />
+    <Compile Include="Quantities\RotationalSpeed.cs" />
+    <Compile Include="Quantities\SolidAngle.cs" />
+    <Compile Include="Quantities\Speed.cs" />
+    <Compile Include="Quantities\Temperature.cs" />
+    <Compile Include="Quantities\Time.cs" />
+    <Compile Include="Quantities\Torque.cs" />
+    <Compile Include="Quantities\ViscousForce.cs" />
+    <Compile Include="Quantities\ViscousTorque.cs" />
+    <Compile Include="Quantities\Voltage.cs" />
+    <Compile Include="Quantities\Volume.cs" />
+    <Compile Include="Quantities\Work.cs" />
+    <Compile Include="Utilities\DoubleExtension.cs" />
+    <Compile Include="Utilities\TypeExtension.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\PhysicsResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>PhysicsResources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

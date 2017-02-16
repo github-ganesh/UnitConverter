@@ -1,0 +1,584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DotOperator" xml:space="preserve">
+    <value>•</value>
+    <comment>multiplication symbol. </comment>
+  </data>
+  <data name="MultipleNameCenti" xml:space="preserve">
+    <value>centi</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleNameDeca" xml:space="preserve">
+    <value>deca</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleNameDeci" xml:space="preserve">
+    <value>deci</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleNameFemto" xml:space="preserve">
+    <value>femto</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleNameGiga" xml:space="preserve">
+    <value>giga</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleNameHecto" xml:space="preserve">
+    <value>hecto</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleNameKilo" xml:space="preserve">
+    <value>kilo</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleNameMega" xml:space="preserve">
+    <value>mega</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleNameMicro" xml:space="preserve">
+    <value>micro</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleNameMilli" xml:space="preserve">
+    <value>milli</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleNameNano" xml:space="preserve">
+    <value>nano</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleNamePico" xml:space="preserve">
+    <value>pico</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleNameTera" xml:space="preserve">
+    <value>tera</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleSymbolCenti" xml:space="preserve">
+    <value>c</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleSymbolDeca" xml:space="preserve">
+    <value>da</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleSymbolDeci" xml:space="preserve">
+    <value>d</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleSymbolFemto" xml:space="preserve">
+    <value>f</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleSymbolGiga" xml:space="preserve">
+    <value>G</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleSymbolHecto" xml:space="preserve">
+    <value>h</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleSymbolKilo" xml:space="preserve">
+    <value>k</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleSymbolMega" xml:space="preserve">
+    <value>M</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleSymbolMicro" xml:space="preserve">
+    <value>µ</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleSymbolMilli" xml:space="preserve">
+    <value>m</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleSymbolNano" xml:space="preserve">
+    <value>n</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleSymbolPico" xml:space="preserve">
+    <value>p</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="MultipleSymbolTera" xml:space="preserve">
+    <value>T</value>
+    <comment>unit prefix</comment>
+  </data>
+  <data name="NameAcceleration" xml:space="preserve">
+    <value>acceleration</value>
+    <comment>not at beginning of sentence, not single word</comment>
+  </data>
+  <data name="NameAmpere" xml:space="preserve">
+    <value>ampere</value>
+    <comment>phys; unit</comment>
+  </data>
+  <data name="NameAngularFeedConstant" xml:space="preserve">
+    <value>Feed constant</value>
+  </data>
+  <data name="NameAngularMomentum" xml:space="preserve">
+    <value>angular momentum</value>
+    <comment>phys; </comment>
+  </data>
+  <data name="NameAngularSpeed" xml:space="preserve">
+    <value>angular speed</value>
+    <comment>phys;</comment>
+  </data>
+  <data name="NameArea" xml:space="preserve">
+    <value>area</value>
+    <comment>phys; not at beginning of sentence, not single word</comment>
+  </data>
+  <data name="NameCapacity" xml:space="preserve">
+    <value>capacity</value>
+    <comment>phys; not at beginning of sentence, not single word</comment>
+  </data>
+  <data name="NameCelsius" xml:space="preserve">
+    <value>celsius</value>
+    <comment>phys;</comment>
+  </data>
+  <data name="NameCoulomb" xml:space="preserve">
+    <value>Coulomb</value>
+    <comment>phys; unit: Coulomb</comment>
+  </data>
+  <data name="NameCurrent" xml:space="preserve">
+    <value>current</value>
+    <comment>phys; electric current</comment>
+  </data>
+  <data name="NameCurrentDensity" xml:space="preserve">
+    <value>current density</value>
+    <comment>phys; electric current density</comment>
+  </data>
+  <data name="NameDensity" xml:space="preserve">
+    <value>density</value>
+    <comment>not at beginning of sentence, not single word</comment>
+  </data>
+  <data name="NameDistanceFeedConstant" xml:space="preserve">
+    <value>Feed constant</value>
+  </data>
+  <data name="NameElectricCharge" xml:space="preserve">
+    <value>electric charge</value>
+    <comment>not at beginning of sentence, not single word</comment>
+  </data>
+  <data name="NameFahrenheit" xml:space="preserve">
+    <value>Fahrenheit</value>
+    <comment>phys;</comment>
+  </data>
+  <data name="NameFeedConstant" xml:space="preserve">
+    <value>Feed constant</value>
+    <comment>phys;</comment>
+  </data>
+  <data name="NameForce" xml:space="preserve">
+    <value>force</value>
+    <comment>not at beginning of sentence, not single word</comment>
+  </data>
+  <data name="NameGeneralFeedConstant" xml:space="preserve">
+    <value>Feed constant</value>
+  </data>
+  <data name="NameGenericUnit" xml:space="preserve">
+    <value>Unit</value>
+    <comment>generic unit</comment>
+  </data>
+  <data name="NameHenry" xml:space="preserve">
+    <value>Henry</value>
+    <comment>do not translate</comment>
+  </data>
+  <data name="NameInductance" xml:space="preserve">
+    <value>inductance</value>
+    <comment>not at beginning of sentence, not single word</comment>
+  </data>
+  <data name="NameInertia" xml:space="preserve">
+    <value>inertia</value>
+    <comment>not at beginning of sentence, not single word</comment>
+  </data>
+  <data name="NameJerk" xml:space="preserve">
+    <value>Jerk</value>
+    <comment>phys;</comment>
+  </data>
+  <data name="NameLength" xml:space="preserve">
+    <value>length</value>
+    <comment>not at beginning of sentence, not single word</comment>
+  </data>
+  <data name="NameMass" xml:space="preserve">
+    <value>mass</value>
+    <comment>not at beginning of sentence, not single word</comment>
+  </data>
+  <data name="NamePercent" xml:space="preserve">
+    <value>percent</value>
+    <comment>math, parts per 100</comment>
+  </data>
+  <data name="NamePlaneAngle" xml:space="preserve">
+    <value>plane angle</value>
+    <comment>geometry; </comment>
+  </data>
+  <data name="NamePower" xml:space="preserve">
+    <value>power</value>
+    <comment>phys; </comment>
+  </data>
+  <data name="NameRad" xml:space="preserve">
+    <value>radiant</value>
+    <comment>phys; name of angle unit</comment>
+  </data>
+  <data name="NameRatio" xml:space="preserve">
+    <value>Ratio</value>
+    <comment>phys;</comment>
+  </data>
+  <data name="NameResistance" xml:space="preserve">
+    <value>resistance</value>
+    <comment>phys; electr;</comment>
+  </data>
+  <data name="NameRotation" xml:space="preserve">
+    <value>rotation</value>
+  </data>
+  <data name="NameRotationalSpeed" xml:space="preserve">
+    <value>rotational speed</value>
+    <comment>phys;</comment>
+  </data>
+  <data name="NameSolidAngle" xml:space="preserve">
+    <value>solid angle</value>
+    <comment>geometry;</comment>
+  </data>
+  <data name="NameSpeed" xml:space="preserve">
+    <value>speed</value>
+    <comment>not at beginning of sentence, not single word</comment>
+  </data>
+  <data name="NameSr" xml:space="preserve">
+    <value>steradiant</value>
+    <comment>phys; name steradiant</comment>
+  </data>
+  <data name="NameTemperature" xml:space="preserve">
+    <value>temperature</value>
+    <comment>phys;</comment>
+  </data>
+  <data name="NameTemperatureKelvin" xml:space="preserve">
+    <value>Kelvin</value>
+    <comment>phys;</comment>
+  </data>
+  <data name="NameTime" xml:space="preserve">
+    <value>time</value>
+    <comment>not at beginning of sentence, not single word</comment>
+  </data>
+  <data name="NameTon" xml:space="preserve">
+    <value>ton</value>
+    <comment>phys; unit: ton</comment>
+  </data>
+  <data name="NameTorque" xml:space="preserve">
+    <value>torque</value>
+    <comment>not at beginning of sentence, not single word</comment>
+  </data>
+  <data name="NameVelocity" xml:space="preserve">
+    <value>velocity</value>
+    <comment>not at beginning of sentence, not single word</comment>
+  </data>
+  <data name="NameViscosity" xml:space="preserve">
+    <value>viscosity</value>
+    <comment>phys; </comment>
+  </data>
+  <data name="NameViscousForce" xml:space="preserve">
+    <value>viscous force</value>
+    <comment>phys; quantity</comment>
+  </data>
+  <data name="NameViscousTorque" xml:space="preserve">
+    <value>viscous torque</value>
+    <comment>phys; quantity</comment>
+  </data>
+  <data name="NameVoltage" xml:space="preserve">
+    <value>voltage</value>
+    <comment>phys;</comment>
+  </data>
+  <data name="NameVolume" xml:space="preserve">
+    <value>volume</value>
+    <comment>phys;</comment>
+  </data>
+  <data name="NameWeight" xml:space="preserve">
+    <value>weight</value>
+    <comment>phys;</comment>
+  </data>
+  <data name="NameWork" xml:space="preserve">
+    <value>work</value>
+    <comment>phys;</comment>
+  </data>
+  <data name="SuperScript1" xml:space="preserve">
+    <value>¹</value>
+    <comment>math; to power of 1</comment>
+  </data>
+  <data name="SuperScript2" xml:space="preserve">
+    <value>²</value>
+    <comment>math; to power of 2</comment>
+  </data>
+  <data name="SuperScript3" xml:space="preserve">
+    <value>³</value>
+    <comment>math; to power of 3</comment>
+  </data>
+  <data name="SuperScript4" xml:space="preserve">
+    <value>⁴</value>
+    <comment>math; to power of 4</comment>
+  </data>
+  <data name="SuperScriptMinus" xml:space="preserve">
+    <value>⁻</value>
+    <comment>math; to negative power</comment>
+  </data>
+  <data name="SymbolAcceleration" xml:space="preserve">
+    <value>a</value>
+    <comment>phys; symbol acceleration</comment>
+  </data>
+  <data name="SymbolAmpere" xml:space="preserve">
+    <value>A</value>
+    <comment>phys; unit: Ampere</comment>
+  </data>
+  <data name="SymbolAngleDegree" xml:space="preserve">
+    <value>°</value>
+    <comment>phys; symbol anglular degree</comment>
+  </data>
+  <data name="SymbolCelsius" xml:space="preserve">
+    <value>°C</value>
+    <comment>phys; symbol temperature degree</comment>
+  </data>
+  <data name="SymbolCoulomb" xml:space="preserve">
+    <value>C</value>
+    <comment>phys; unit: Coulomb</comment>
+  </data>
+  <data name="SymbolCurrent" xml:space="preserve">
+    <value>I</value>
+    <comment>phys; symbol electric current</comment>
+  </data>
+  <data name="SymbolDay" xml:space="preserve">
+    <value>d</value>
+    <comment>time; symbol for day</comment>
+  </data>
+  <data name="SymbolFahrenheit" xml:space="preserve">
+    <value>F</value>
+    <comment>phys;</comment>
+  </data>
+  <data name="SymbolFarad" xml:space="preserve">
+    <value>F</value>
+    <comment>phys; unit: Farad</comment>
+  </data>
+  <data name="SymbolFoot" xml:space="preserve">
+    <value>ft</value>
+    <comment>phys; unit: foot</comment>
+  </data>
+  <data name="SymbolGram" xml:space="preserve">
+    <value>g</value>
+    <comment>phys; unit: gram</comment>
+  </data>
+  <data name="SymbolHenry" xml:space="preserve">
+    <value>H</value>
+    <comment>phys; unit: Henry</comment>
+  </data>
+  <data name="SymbolHour" xml:space="preserve">
+    <value>h</value>
+    <comment>phys; unit: hour</comment>
+  </data>
+  <data name="SymbolInch" xml:space="preserve">
+    <value>in</value>
+    <comment>phys; unit: inch</comment>
+  </data>
+  <data name="SymbolLength" xml:space="preserve">
+    <value>l</value>
+    <comment>phys; symbol length</comment>
+  </data>
+  <data name="SymbolLitre" xml:space="preserve">
+    <value>l</value>
+    <comment>phys; unit: litre</comment>
+  </data>
+  <data name="SymbolMeter" xml:space="preserve">
+    <value>m</value>
+    <comment>phys; unit: Meter</comment>
+  </data>
+  <data name="SymbolMile" xml:space="preserve">
+    <value>mi</value>
+    <comment>phys; unit: Mile</comment>
+  </data>
+  <data name="SymbolMinute" xml:space="preserve">
+    <value>min</value>
+    <comment>phys; unit: Minute</comment>
+  </data>
+  <data name="SymbolNewton" xml:space="preserve">
+    <value>N</value>
+    <comment>phys; unit: Newton</comment>
+  </data>
+  <data name="SymbolOhm" xml:space="preserve">
+    <value>Ω</value>
+    <comment>phys; unit: Ohm, greek capital omega</comment>
+  </data>
+  <data name="SymbolPercent" xml:space="preserve">
+    <value>%</value>
+    <comment>symbol parts per 100</comment>
+  </data>
+  <data name="SymbolPound" xml:space="preserve">
+    <value>lb</value>
+    <comment>phys; unit: pound</comment>
+  </data>
+  <data name="SymbolPower" xml:space="preserve">
+    <value>P</value>
+    <comment>phys; symbol power</comment>
+  </data>
+  <data name="SymbolRad" xml:space="preserve">
+    <value>rad</value>
+    <comment>phys;unit: rad</comment>
+  </data>
+  <data name="SymbolRotation" xml:space="preserve">
+    <value>1</value>
+    <comment>phys; unit for 1 rotation</comment>
+  </data>
+  <data name="SymbolRotationalSpeed" xml:space="preserve">
+    <value>ω</value>
+    <comment>phys; symbol rotational speed, greek omega</comment>
+  </data>
+  <data name="SymbolSecond" xml:space="preserve">
+    <value>s</value>
+    <comment>phys; unit: second</comment>
+  </data>
+  <data name="SymbolSr" xml:space="preserve">
+    <value>Ω</value>
+    <comment>phys; symbol steradiant</comment>
+  </data>
+  <data name="SymbolTemperature" xml:space="preserve">
+    <value>T</value>
+    <comment>phys; symbol temperature</comment>
+  </data>
+  <data name="SymbolTemperatureKelvin" xml:space="preserve">
+    <value>K</value>
+    <comment>phys; symbol kelvin</comment>
+  </data>
+  <data name="SymbolTime" xml:space="preserve">
+    <value>t</value>
+    <comment>phys; symbol time</comment>
+  </data>
+  <data name="SymbolTon" xml:space="preserve">
+    <value>t</value>
+    <comment>phys; unit: ton</comment>
+  </data>
+  <data name="SymbolVolt" xml:space="preserve">
+    <value>V</value>
+    <comment>phys; unit: Volt</comment>
+  </data>
+  <data name="SymbolWatt" xml:space="preserve">
+    <value>W</value>
+    <comment>phys; unit: Watt</comment>
+  </data>
+  <data name="SymbolYard" xml:space="preserve">
+    <value>yd</value>
+    <comment>phys; unit: yard</comment>
+  </data>
+</root>
